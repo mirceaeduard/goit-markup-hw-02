@@ -3,71 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>STUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <!-- Header-ul paginii -->
-    <header>
+    <header class="header">
         <!--Logoul-->
-        <a href="./index.html">
-            <span>WEB</span>
-            <span>STUDIO</span>
+        <a class="header-logo link" href="./index.html">
+            WEB <span>STUDIO</span>
         </a>
         <!-- Nav-barul din partea superioară a paginii -->
         <nav>
             <!-- Link-urile spre celelalte pagini -->
-            <ul>
-                <li><a href="./index.html">Studio</a></li>
-                <li><a href="./portofolio.html">Portofolio</a></li>
-                <li><a href="./contacte.html">Contacte</a></li>
+            <ul class="header list">
+                <li class="header-studio"><a class="header-studio link" href="./index.html">Studio</a></li>
+                <li class="header-studio"><a class="header-studio link" href="./portofolio.html">Portofolio</a></li>
+                <li class="header-studio"><a class="header-studio link" href="./contacte.html">Contacte</a></li>
             </ul>
         </nav>
         <!-- Sectiunea contacte -->
-        <address>
-            <span>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <address class="address-list">
+            <span class="address list">
+                <a class="address link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </span>
-            <span>
-                <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <span class="address list">
+                <a class="address link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </span>
         </address>
     </header>
     <!--Corpul paginii-->
     <main>
         <!--Sectiunea 1-->
-        <section>
+        <section class="heading">
              <!-- Motto-ul și butonul pentru comenzi -->
-             <h1>Effective Solutions for Your Business</h1>
-             <button type="button">Order Service</button>
+             <h1 class="heading-caption">Effective Solutions for Your Business</h1>
+             <button class="heading-btn" type="button">Order Service</button>
         </section>
         <!--Sectiunea 2-->
-        <section>
+        <section class="hero">
             <!--Lista cu Principalele calitati ale firmei-->
-            <ul>
+            <ul class="hero list">
                 <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                    <h3 class="hero-heading">Strategy</h3>
+                    <p class="hero-paragraph">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                 </li>
                 <li>
-                    <h3>Punctuality</h3>
+                    <h3 class="hero-heading">Punctuality</h3>
                     <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
                 <li>
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                    <h3 class="hero-heading">Diligence</h3>
+                    <p class="hero-paragraph">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                 </li>
                 <li>
                     <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                    <p class="hero-paragraph">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
         </section>
         <!--Sectiunea 3-->
         <section>
             <!-- titlul secțiunii -->
-            <h2>What are we doing</h2>
+            <h2 class="headline">What are we doing</h2>
             <!--Lista cu imaginile ce prezinta produsele-->
-            <ul>
+            <ul class="main-photo list">
                 <li>
                     <img src="./images/product1.jpg" alt="Aplicații web pentru desktop" width="400" height="450">
                 </li>
@@ -81,15 +87,15 @@
         </section>
         <!--Sectiunea 4-->
         <section>
-            <h2>Our Team</h2>
+            <h2 class="subtitle">Our Team</h2>
             <!-- Carusel cu imagini -->
-            <ul>
+            <ul class="main-persone list">
                 <li>
                     <article>
                         <img src="./images/mt1.jpg" alt="Membru echipă" width="264" height="260">
                         <div>
-                            <p>Mark Guerrero</p>
-                            <p>Product Designer</p>
+                            <p class="subtitle-name">Mark Guerrero</p>
+                            <p class="subtitle-paragraph">Product Designer</p>
                         </div>
                     </article>
                 </li>
@@ -97,8 +103,8 @@
                     <article>
                         <img src="./images/mt2.jpg" alt="Membru echipă" width="264" height="260">
                         <div>
-                            <p>Tom Ford</p>
-                            <p>Frontend Developer</p>
+                            <p class="subtitle-name">Tom Ford</p>
+                            <p class="subtitle-paragraph">Frontend Developer</p>
                         </div>
                     </article>
                 </li>
@@ -106,8 +112,8 @@
                     <article>
                         <img src="./images/mt3.jpg" alt="Membru echipă" width="264" height="260">
                         <div>
-                            <p>Camila Garcia</p>
-                            <p>Marketing</p>
+                            <p class="subtitle-name">Camila Garcia</p>
+                            <p class="subtitle-paragraph">Marketing</p>
                         </div>
                     </article>
                 </li>
@@ -115,8 +121,8 @@
                     <article>
                         <img src="./images/mt4.jpg" alt="Membru echipă" width="264" height="260">
                         <div>
-                            <p>Daniel Wilson</p>
-                            <p>UI Designer</p>
+                            <p class="subtitle-name">Daniel Wilson</p>
+                            <p class="subtitle-paragraph">UI Designer</p>
                         </div>
                     </article>
                 </li>
@@ -124,14 +130,13 @@
         </section>
     </main>
     <!--Subsolul paginii-->
-    <footer>
+    <footer class="footer">
         <!-- Logo -->
-        <a href="./index.html">
-            <span>WEB</span>
-            <span>STUDIO</span>
+        <a class="footer-logo link" href="./index.html">
+            WEB <span class="footer-logo-studio">STUDIO</span>
         </a>
         <!--Deziderat-->
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
 </body>
 </html>
